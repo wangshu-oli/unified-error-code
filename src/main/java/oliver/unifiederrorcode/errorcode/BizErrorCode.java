@@ -1,5 +1,7 @@
 package oliver.unifiederrorcode.errorcode;
 
+import oliver.unifiederrorcode.enums.BusinessLineCommonCode;
+
 /**
  * @author Oliver
  * @date 2022年06月13日 16:27

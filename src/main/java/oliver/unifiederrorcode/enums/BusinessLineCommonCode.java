@@ -1,4 +1,4 @@
-package oliver.unifiederrorcode.errorcode;
+package oliver.unifiederrorcode.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

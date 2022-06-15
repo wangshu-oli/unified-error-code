@@ -2,7 +2,7 @@ package oliver.unifiederrorcode.exception;
 
 import java.util.Iterator;
 import javax.validation.ConstraintViolationException;
-import oliver.unifiederrorcode.errorcode.BaseErrorCode;
+import oliver.unifiederrorcode.enums.BaseErrorCode;
 import oliver.unifiederrorcode.result.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,10 +1,12 @@
-package oliver.unifiederrorcode.errorcode;
+package oliver.unifiederrorcode.enums;
+
+import oliver.unifiederrorcode.errorcode.BizErrorCode;
 
 /**
  * @author zhangxiaojian
  * @date 2022年06月14日 15:50
  */
-public enum BaseErrorCode implements BizErrorCode{
+public enum BaseErrorCode implements BizErrorCode {
 
     SUCCESS("000", "成功"),
     INTERNAL_SERVER_ERROR("001", "服务内部错误"),
