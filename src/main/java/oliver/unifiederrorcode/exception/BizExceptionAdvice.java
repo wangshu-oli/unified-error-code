@@ -35,13 +35,13 @@ public class BizExceptionAdvice {
         return Result.fail(exception.getErrorCode(), exception.getErrorMessage());
     }
 
-    /*@ExceptionHandler({RuntimeException.class})
+    @ExceptionHandler({RuntimeException.class})
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     @ResponseBody
     public Result<Object> runtimeExceptionHandler(RuntimeException exception) {
         this.log.error("Handle thrown exception to failed result", exception);
         return Result.fail(BaseErrorCode.INTERNAL_SERVER_ERROR.get6Code(), exception.getMessage());
-    }*/
+    }
 
     @ExceptionHandler({HttpMessageNotReadableException.class})
     @ResponseStatus(HttpStatus.BAD_REQUEST)
